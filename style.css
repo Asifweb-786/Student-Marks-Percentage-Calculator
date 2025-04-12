@@ -11,9 +11,12 @@ body {
   }
 .para{
     text-align: center;
-    font-size: 12px;
-    background-color: yellow;
-    font-weight: bold;
+}
+.para .spn{
+  padding: 5px;
+  font-size: 12px;
+  background-color: yellow;
+  font-weight: bold;
 }
   .container {
     background: #ffffff;
