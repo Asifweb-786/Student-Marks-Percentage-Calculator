@@ -1,39 +1,3 @@
-// let firstNum = parseFloat(prompt("Enter first number"));
-// let opert = prompt("Enter opertar exmp(+,-,*,/)");
-// let secNum = parseFloat(prompt("Enter secound number"));
-// let result;
-// if (isNaN(firstNum) || isNaN(secNum)) {
-//   alert("invalid input! please try again")
-// } else {
-//   switch (opert) {
-//     case "+":
-//       result = firstNum + secNum;
-//       document.writeln("Result is : " + result);
-//       break;
-//     case "-":
-//       result = firstNum - secNum;
-//       document.writeln("Result is : " + result);
-//       break;
-//     case "*":
-//       result = firstNum * secNum;
-//       document.writeln("Result is : " + result);
-//       break;
-//     case "/":
-//       result = firstNum / secNum;
-//       document.writeln("Result is : " + result);
-//       break;
-//     case "%":
-//       result = firstNum % secNum;
-//       document.writeln("Result is : " + result);
-//       break;
-//     case "**":
-//       result = firstNum ** secNum;
-//       document.writeln("Result is : " + result);
-//       break;
-//     default:
-//       alert("invalid operator");
-//   }
-// }
 function calculateGrade(){
 let eng = parseFloat(document.getElementById("eng").value);
 let urdu = parseFloat(document.getElementById("urdu").value);
